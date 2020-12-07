@@ -1,12 +1,18 @@
-.logo {
-  height: 60px;
-  width: 60px;
+#container {
+  background-color: rgb(132, 136, 139);
+  width: 50%;
+  height: 20%;
+  margin: 2% auto;
 }
-#radisson {
-  height: 500px;
+#information {
+  margin: 2%;
+}
+#total {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1% 2%;
+}
+#image {
   width: 500px;
-}
-.footer {
-  height: 20px;
-  width: 22px;
+  height: 500px;
 }
