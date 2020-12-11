@@ -15,7 +15,8 @@ body {
   background-color: rosybrown;
   display: flex;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 1;
 }
@@ -51,4 +52,8 @@ body {
 }
 .rating {
   color: orange;
+}
+.modal-footer {
+  display: flex;
+  justify-content: center;
 }

@@ -14,6 +14,10 @@
   justify-content: center;
   align-items: center;
 }
+#inputBox {
+  display: flex;
+  justify-content: center;
+}
 #city input {
   background-color: #f1f1f1;
   border: 1px solid transparent;
@@ -67,4 +71,8 @@ input[type="text"]:focus {
 }
 .lay {
   position: relative;
+}
+
+#viewMore {
+  display: none;
 }
