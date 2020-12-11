@@ -38,3 +38,33 @@ input[type="text"]:focus {
 .background {
   background-color: #f1f1f1;
 }
+
+.overlay {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  top: 0;
+  left: 0px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25%;
+}
+
+.lay:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: #f1f1f1;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  position: relative;
+
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.lay {
+  position: relative;
+}
